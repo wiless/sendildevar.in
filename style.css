@@ -1,0 +1,115 @@
+/*  See documentation here
+https://css-tricks.com/responsive-grid-magazine-layout-in-just-20-lines-of-css/ 
+*/
+body {
+  background: #082236; 
+  color: rgb(31, 4, 4)80, 18, 18);
+  padding: 2em;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+hr { /*dummy content*/
+  height: 6px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 2px,dotted, #460ce6;
+} 
+
+hr:last-child {  /*dummy content*/
+  margin-right: 60%;
+}
+
+hr.image { /*dummy content*/
+  padding-bottom: 50%;
+} 
+
+.page {
+  /* padding: 2em; */
+  background: #cecece07;
+  max-width: 100%;
+}
+
+.archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1em;
+}
+
+.article {
+  color:bisque;
+  opacity: .8;
+  padding: 1em;
+  background: #fff;
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 20px 20px rgba(0, 0, 0, 0.05);
+  background-color: rgb(39, 59, 66,255);
+
+}
+ 
+
+.family.article  {
+  opacity: .8;
+  padding: 1em;
+  background: rgb(253, 20, 20);
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 20px 20px rgba(0, 0, 0, 0.05);
+  /* background-color: rgb(39, 59, 66,255); */
+  color: rgb(255, 255, 255);
+  background-color:teal;
+  
+  
+}
+ 
+.family.article:hover  {
+  opacity: 1;
+  padding: 1em;
+  background: rgb(253, 20, 20);
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 10px 10px rgba(255, 253, 253, 0.466);
+  /* background-color: rgb(39, 59, 66,255); */
+   background-color:teal;
+  
+  
+}
+.article:hover {
+  /* padding: 1em; */
+  opacity: 1;
+  /* border: 1px,solid, #460ce6; */
+  background: rgba(72, 73, 64, 0.329);
+  box-shadow:
+    0 5px 10px rgba(208, 221, 31, 0.1),
+    0 40px 40px rgba(0, 0, 0, 0.05);
+}
+
+
+/* unvisited link */
+a:link {
+  color: rgb(194, 226, 48);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(194, 226, 48);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(194, 226, 48);
+}
+
+/* selected link */
+a:active {
+  color: rgb(194, 226, 48);
+}
+
+
+.footnote{
+  background-color: rgba(0, 0, 0, 0.267);
+  color: rgb(198, 253, 0);
+  padding:.2em;
+  text-align: center;
+}
