@@ -133,19 +133,23 @@ div#social {
  
 @media only screen and (min-width: 600px) {
     #jumboheader {
-        background-image: url("/assets/headerdark.jpg");
+        background-image: url("/assets/brazil4.jpg") ; 
         background-size: cover;
-        background-color: teal;
-      
+        background-color: rgb(10, 34, 34);
+        color:rgb(17, 14, 14);
+       font-weight: bold;
+    
     }
     
 }
 
 @media only screen and (max-width: 600px) {
     #jumboheader {
-        background-image: url("/assets/headerdark-mobile.jpg");
+        background-image: url("/assets/header-brazil.jpg");
         background-size: cover;
         background-color: rgba(17, 24, 24, 0.781);
+        color:rgb(17, 14, 14);
+        font-weight: bold;
     }
 }
 
@@ -204,3 +208,30 @@ div#social {
     margin: 5em 0em 0em;
     padding: 5em 0em;
 }
+
+
+
+/* unvisited link */
+a:link {
+    color: rgb(16, 255, 8);
+    font-weight:bolder
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(194, 226, 48);
+    font-weight:bolder
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(48, 226, 78);
+    font-weight:bolder;
+   }
+  
+  /* selected link */
+  a:active {
+    color: rgb(16, 255, 8);
+    font-weight:bolder;
+  }
+  

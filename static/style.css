@@ -84,28 +84,7 @@ hr.image { /*dummy content*/
     0 5px 10px rgba(208, 221, 31, 0.1),
     0 40px 40px rgba(0, 0, 0, 0.05);
 }
-
-
-/* unvisited link */
-a:link {
-  color: rgb(194, 226, 48);
-}
-
-/* visited link */
-a:visited {
-  color: rgb(194, 226, 48);
-}
-
-/* mouse over link */
-a:hover {
-  color: rgb(194, 226, 48);
-}
-
-/* selected link */
-a:active {
-  color: rgb(194, 226, 48);
-}
-
+ 
 
 .footnote{
   background-color: rgba(0, 0, 0, 0.267);
